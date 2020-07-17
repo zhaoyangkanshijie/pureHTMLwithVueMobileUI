@@ -18,7 +18,7 @@
 对应解决方案：
 
 1. vue
-2. mint ui
+2. mint ui(饿了么)/vant ui(有赞)/nut ui(京东)/cube ui(滴滴)/muse ui(社区)
 3. 每个html都new Vue
 4. axios
 5. flexible
