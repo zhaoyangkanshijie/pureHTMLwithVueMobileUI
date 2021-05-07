@@ -20,8 +20,10 @@
         <mt-spinner type="double-bounce"></mt-spinner>
         <mt-spinner type="triple-bounce"></mt-spinner>
         <mt-spinner type="fading-circle"></mt-spinner>
+        <my-mask v-for="item in groceryList" :key="item.id" :todo="item" @@emit="console.log('emit')" ref="a"><div @@click="show(item)">插槽</div></my-mask>
     </div>
 </body>
 
+<script src="./minjs/mask.min.js" type="text/javascript"></script>
 <script src="./minjs/index.min.js" type="text/javascript"></script>
 </html>
